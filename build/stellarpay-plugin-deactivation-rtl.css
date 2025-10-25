@@ -1,0 +1,170 @@
+#stellarpay-deactivation-modal .sp-fixed {
+    position: fixed
+}
+#stellarpay-deactivation-modal .sp-relative {
+    position: relative
+}
+#stellarpay-deactivation-modal .sp-left-0 {
+    right: 0px
+}
+#stellarpay-deactivation-modal .sp-right-0 {
+    left: 0px
+}
+#stellarpay-deactivation-modal .sp-top-0 {
+    top: 0px
+}
+#stellarpay-deactivation-modal .sp-z-50 {
+    z-index: 50
+}
+#stellarpay-deactivation-modal .sp-mb-0 {
+    margin-bottom: 0px
+}
+#stellarpay-deactivation-modal .sp-mb-4 {
+    margin-bottom: 1rem
+}
+#stellarpay-deactivation-modal .sp-ml-3 {
+    margin-right: 0.75rem
+}
+#stellarpay-deactivation-modal .sp-flex {
+    display: flex
+}
+#stellarpay-deactivation-modal .sp-hidden {
+    display: none
+}
+#stellarpay-deactivation-modal .sp-h-4 {
+    height: 1rem
+}
+#stellarpay-deactivation-modal .sp-max-h-full {
+    max-height: 100%
+}
+#stellarpay-deactivation-modal .sp-w-4 {
+    width: 1rem
+}
+#stellarpay-deactivation-modal .sp-w-full {
+    width: 100%
+}
+#stellarpay-deactivation-modal .sp-max-w-2xl {
+    max-width: 42rem
+}
+#stellarpay-deactivation-modal .sp-cursor-pointer {
+    cursor: pointer
+}
+#stellarpay-deactivation-modal .sp-items-center {
+    align-items: center
+}
+#stellarpay-deactivation-modal .sp-justify-center {
+    justify-content: center
+}
+#stellarpay-deactivation-modal .sp-justify-between {
+    justify-content: space-between
+}
+#stellarpay-deactivation-modal :is(.sp-space-y-4 > :not([hidden]) ~ :not([hidden])) {
+    --sp-space-y-reverse: 0;
+    margin-top: calc(1rem * calc(1 - var(--sp-space-y-reverse)));
+    margin-bottom: calc(1rem * var(--sp-space-y-reverse))
+}
+#stellarpay-deactivation-modal .sp-overflow-y-auto {
+    overflow-y: auto
+}
+#stellarpay-deactivation-modal .sp-overflow-x-hidden {
+    overflow-x: hidden
+}
+#stellarpay-deactivation-modal .sp-border {
+    border-width: 1px
+}
+#stellarpay-deactivation-modal .sp-border-b {
+    border-bottom-width: 1px
+}
+#stellarpay-deactivation-modal .sp-border-b-0 {
+    border-bottom-width: 0px
+}
+#stellarpay-deactivation-modal .sp-border-l-0 {
+    border-right-width: 0px
+}
+#stellarpay-deactivation-modal .sp-border-r-0 {
+    border-left-width: 0px
+}
+#stellarpay-deactivation-modal .sp-border-t {
+    border-top-width: 1px
+}
+#stellarpay-deactivation-modal .sp-border-t-0 {
+    border-top-width: 0px
+}
+#stellarpay-deactivation-modal .sp-border-solid {
+    border-style: solid
+}
+#stellarpay-deactivation-modal .sp-border-gray-200 {
+    --sp-border-opacity: 1;
+    border-color: rgb(229 231 235 / var(--sp-border-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-border-slate-300 {
+    --sp-border-opacity: 1;
+    border-color: rgb(203 213 225 / var(--sp-border-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-border-yellow-200 {
+    --sp-border-opacity: 1;
+    border-color: rgb(254 240 138 / var(--sp-border-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-bg-amber-50 {
+    --sp-bg-opacity: 1;
+    background-color: rgb(255 251 235 / var(--sp-bg-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-bg-gray-500 {
+    --sp-bg-opacity: 1;
+    background-color: rgb(107 114 128 / var(--sp-bg-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-bg-slate-50 {
+    --sp-bg-opacity: 1;
+    background-color: rgb(248 250 252 / var(--sp-bg-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-bg-white {
+    --sp-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--sp-bg-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-bg-opacity-75 {
+    --sp-bg-opacity: 0.75
+}
+#stellarpay-deactivation-modal .sp-p-4 {
+    padding: 1rem
+}
+#stellarpay-deactivation-modal .sp-px-4 {
+    padding-right: 1rem;
+    padding-left: 1rem
+}
+#stellarpay-deactivation-modal .sp-text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem
+}
+#stellarpay-deactivation-modal .sp-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+#stellarpay-deactivation-modal .sp-font-normal {
+    font-weight: 400
+}
+#stellarpay-deactivation-modal .sp-text-gray-500 {
+    --sp-text-opacity: 1;
+    color: rgb(107 114 128 / var(--sp-text-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-text-gray-800 {
+    --sp-text-opacity: 1;
+    color: rgb(31 41 55 / var(--sp-text-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-text-gray-900 {
+    --sp-text-opacity: 1;
+    color: rgb(17 24 39 / var(--sp-text-opacity, 1))
+}
+#stellarpay-deactivation-modal .sp-shadow {
+    --sp-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --sp-shadow-colored: 0 1px 3px 0 var(--sp-shadow-color), 0 1px 2px -1px var(--sp-shadow-color);
+    box-shadow: var(--sp-ring-offset-shadow, 0 0 #0000), var(--sp-ring-shadow, 0 0 #0000), var(--sp-shadow)
+}
+@media (min-width: 768px) {
+    #stellarpay-deactivation-modal .md\:sp-inset-0 {
+        inset: 0px
+    }
+    #stellarpay-deactivation-modal .md\:sp-p-5 {
+        padding: 1.25rem
+    }
+}
+

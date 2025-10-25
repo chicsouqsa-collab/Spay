@@ -1,0 +1,2856 @@
+# Copyright (C) 2025 StellarWP
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: StellarPay - Stripe Payment Gateway for WooCommerce 1.9.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stellarpay\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-02T18:25:18+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: stellarpay\n"
+
+#. Plugin Name of the plugin
+#: stellarpay.php
+msgid "StellarPay - Stripe Payment Gateway for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: stellarpay.php
+msgid "https://links.stellarwp.com/stellarpay"
+msgstr ""
+
+#. Description of the plugin
+#: stellarpay.php
+msgid "The ultimate Stripe payment gateway for WooCommerce, designed to help you accept payments seamlessly."
+msgstr ""
+
+#. Author of the plugin
+#: stellarpay.php
+msgid "StellarWP"
+msgstr ""
+
+#. Author URI of the plugin
+#: stellarpay.php
+msgid "https://links.stellarwp.com/stellarwp"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:95
+msgctxt "Page title"
+msgid "StellarPay"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:96
+msgctxt "Menu title"
+msgid "StellarPay"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:122
+msgctxt "Page title"
+msgid "Dashboard"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:131
+msgctxt "Page title"
+msgid "Payments"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:136
+msgctxt "Page title"
+msgid "Subscriptions"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:141
+msgctxt "Page title"
+msgid "Events"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:146
+msgctxt "Page title"
+msgid "Settings"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:164
+msgctxt "Page title"
+msgid "StellarPay Dashboard"
+msgstr ""
+
+#: src/AdminDashboard/AdminMenu.php:188
+msgid "Test Mode Active"
+msgstr ""
+
+#: src/AdminDashboard/NoticeManager.php:65
+msgid "StellarPay requires SSL to be enabled. Please enable SSL to continue."
+msgstr ""
+
+#: src/AdminDashboard/Repositories/OptionsRepository.php:182
+#: build/dashboard.js:183
+msgid "Credit Card or Debit Card"
+msgstr ""
+
+#: src/AdminDashboard/Repositories/OptionsRepository.php:192
+#: src/AdminDashboard/Repositories/OptionsRepository.php:241
+#: build/dashboard.js:183
+msgid "Processing Fee"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:123
+#: src/AdminDashboard/RestApi/Options.php:187
+msgid "Invalid or expired option name."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:161
+msgid "No settings provided."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:166
+msgid "Settings updated."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:190
+msgid "No option key is provided."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:195
+msgid "Setting deleted."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:215
+#: build/dashboard.js:183
+msgid "Percentage-based processing fee"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:219
+#: build/dashboard.js:183
+msgid "Flat amount processing fee"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:244
+msgid "Statement descriptor must be between 5 and 22 characters."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:249
+msgid "Statement descriptor must contain only Latin characters."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:254
+msgid "Statement descriptor must contain at least one letter."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/Options.php:259
+msgid "Statement descriptor must not contain any of the following special characters: < > \\ ' \" *."
+msgstr ""
+
+#. translators: %s - the field name
+#: src/AdminDashboard/RestApi/Options.php:279
+#, php-format
+msgid "%s must be a value with one decimal point, using a period (.) as the decimal separator."
+msgstr ""
+
+#. translators: %s - the field name
+#: src/AdminDashboard/RestApi/Options.php:289
+#, php-format
+msgid "%s must be a valid number."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:411
+msgctxt "Recurring period"
+msgid "Daily"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:413
+msgctxt "Recurring period"
+msgid "Weekly"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:415
+msgctxt "Recurring period"
+msgid "Monthly"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:417
+msgctxt "Recurring period"
+msgid "Yearly"
+msgstr ""
+
+#. translators: %1$s is the frequency, %2$s is the period. Example: `every 3 months`.
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:422
+#, php-format
+msgctxt "Recurring period"
+msgid "Every %1$s %2$s(s)"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:452
+msgid "Subscription is not cancellable."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:470
+#: build/dashboard.js:182
+msgid "Subscription has been canceled."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:491
+msgid "Subscription is scheduled to be canceled at the end of the current period."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:592
+msgid "Cannot update payment method for this subscription."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:602
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:659
+msgid "Payment method has been updated successfully."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:605
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:650
+#: src/Integrations/WooCommerce/Controllers/MyAccount/MySubscriptions.php:191
+#: src/Integrations/WooCommerce/Stripe/Controllers/UpdatePaymentMethod.php:74
+#: src/Integrations/WooCommerce/Stripe/Controllers/UpdatePaymentMethod.php:89
+msgid "Unable to update the payment method."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:680
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:705
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:782
+#: src/Integrations/WooCommerce/Views/MyAccountPage/RestApi/SubscriptionStatus.php:96
+msgid "Subscription not found."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:684
+msgid "You can not update payment method for this subscription."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:713
+msgid "Invalid resume date."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:721
+msgid "Installment payments cannot be paused."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:729
+msgid "Subscription is not pauseable."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:751
+msgid "Unable to pause the subscription."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:765
+#: build/dashboard.js:183
+msgid "Subscription has been paused."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:790
+msgid "Installment payments cannot be resumed."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:798
+msgid "Subscription is not resumable."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:818
+msgid "Unable to resume the subscription."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/SubscriptionsListPage.php:832
+#: build/dashboard.js:183
+msgid "Subscription has been resumed."
+msgstr ""
+
+#: src/AdminDashboard/RestApi/TestModeData.php:112
+msgid "Failed to delete test mode data"
+msgstr ""
+
+#: src/AdminDashboard/RestApi/TestModeData.php:116
+msgid "Deletion in progress. This may take a minute.."
+msgstr ""
+
+#: src/Core/Migrations/Contracts/Migration.php:69
+#: src/Webhook/Migrations/CreateWebhookEventsTable.php:107
+msgid "Core"
+msgstr ""
+
+#: src/Core/Migrations/MigrationsRunner.php:185
+msgid "There was a problem running the migrations. Please reach out to StellarPay support for assistance:"
+msgstr ""
+
+#: src/Core/ValueObjects/ModifierContextType.php:58
+msgid "admin"
+msgstr ""
+
+#: src/Core/ValueObjects/ModifierContextType.php:59
+msgid "webhook"
+msgstr ""
+
+#: src/Core/ValueObjects/ModifierContextType.php:60
+msgid "customer"
+msgstr ""
+
+#: src/Core/ValueObjects/ModifierContextType.php:61
+msgid "system"
+msgstr ""
+
+#: src/Core/ValueObjects/RefundType.php:55
+msgid "No refund"
+msgstr ""
+
+#. translators: %s - subscription amount.
+#: src/Core/ValueObjects/RefundType.php:57
+#, php-format
+msgid "Last payment %s"
+msgstr ""
+
+#. translators: %1$s - prorated amount, %2$s - subscription amount.
+#: src/Core/ValueObjects/RefundType.php:59
+#, php-format
+msgid "Prorated amount %1$s of %2$s"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionCancelAt.php:47
+msgid "Cancel Immediately"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionCancelAt.php:48
+msgid "End of the current period"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:62
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:64
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:66
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:68
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: Example: every 2 days. 1: Frequency count. 2: Day/Week/Month/Year.
+#: src/Core/ValueObjects/SubscriptionPeriod.php:84
+#: src/Core/ValueObjects/SubscriptionPeriod.php:115
+#, php-format
+msgid "every %1$d %2$s"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:92
+msgid "daily"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:94
+msgid "weekly"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:96
+msgid "monthly"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:98
+msgid "yearly"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:123
+msgid "a day"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:125
+msgid "a week"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:127
+msgid "a month"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:129
+msgid "a year"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:144
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Daily"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:145
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Weekly"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:146
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Monthly"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionPeriod.php:147
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Yearly"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:112
+msgid "Pending"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:113
+msgid "Processing"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:114
+#: build/dashboard.js:183
+msgid "Active"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:115
+msgid "Expired"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:116
+msgid "Completed"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:117
+msgid "Failed"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:118
+msgid "Past Due"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:119
+#: build/dashboard.js:183
+msgid "Canceled"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:120
+msgid "Suspended"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:121
+msgid "Abandoned"
+msgstr ""
+
+#: src/Core/ValueObjects/SubscriptionStatus.php:122
+#: build/dashboard.js:183
+msgid "Paused"
+msgstr ""
+
+#: src/Core/ValueObjects/WebhookEventSource.php:60
+#: src/Core/ValueObjects/WebhookEventSource.php:61
+msgid "order"
+msgstr ""
+
+#: src/Core/ValueObjects/WebhookEventSource.php:62
+msgid "subscription"
+msgstr ""
+
+#: src/Core/ValueObjects/WebhookEventSource.php:63
+msgid "generic"
+msgstr ""
+
+#: src/Integrations/ActionScheduler/Migrations/RegisterDailyRecurringJob.php:51
+msgid "Register Daily Recurring Job For Action Scheduler"
+msgstr ""
+
+#: src/Integrations/Stripe/StripeErrorMessage.php:45
+msgid "The specified amount is greater than the maximum amount allowed. Use a lower amount and try again."
+msgstr ""
+
+#: src/Integrations/Stripe/StripeErrorMessage.php:49
+msgid "The specified amount is less than the minimum amount allowed. Use a higher amount and try again."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Cart/StoreApi/Cart.php:70
+msgid "The cart billing period based on products in the cart e.g. days and monthly."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Cart/StoreApi/Cart.php:75
+msgid "The subscription data for the cart."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Cart/StoreApi/CartItem.php:85
+msgid "The product billing period e.g. days and monthly."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Controllers/MyAccount/MySubscriptions.php:166
+msgid "Your subscription was canceled."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Controllers/MyAccount/MySubscriptions.php:170
+msgid "Payment method successfully updated."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Controllers/MyAccount/MySubscriptions.php:187
+msgid "We are sorry, but we could not cancel your subscription. Please try again shortly."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedAdminEmail.php:45
+msgid "Subscription Changed"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedAdminEmail.php:46
+msgid "Subscription Changed emails are sent when customer switches the status of subscription."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedAdminEmail.php:48
+msgid "Subscription Changed."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedAdminEmail.php:49
+msgid "[{site_name}] Subscription status has changed to {subscription_status} for order #{order_number}"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedAdminEmail.php:71
+msgid "Recipient(s)"
+msgstr ""
+
+#. translators: 1: WP admin email
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedAdminEmail.php:75
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedSuccessfulCustomerEmail.php:44
+msgid "Subscription Change Successful"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedSuccessfulCustomerEmail.php:45
+msgid "This email is sent to customers when their subscription status changes."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedSuccessfulCustomerEmail.php:49
+msgid "Your subscription status has changed."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/SubscriptionStatusChangedSuccessfulCustomerEmail.php:50
+msgid "Your {site_title} subscription status has changed to {subscription_status}"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:69
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:105
+msgid "Subscription information"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:79
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:126
+#: src/Subscriptions/Models/Subscription.php:180
+msgid "Ongoing until canceled"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:81
+msgid "Subscription: "
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:83
+msgid "Start Date: "
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:85
+msgid "End Date: "
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:87
+msgid "Price: "
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:111
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:190
+#: src/Integrations/WooCommerce/Views/OrderEditPage/OrderEditPage.php:111
+#: src/Subscriptions/Migrations/CreateSubscriptionDatabaseTable.php:126
+#: src/Subscriptions/Migrations/CreateSubscriptionMetaDatabaseTable.php:100
+msgid "Subscription"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:112
+msgid "Start Date"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:113
+msgid "End Date"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Emails/Views/AddSubscriptionsDetailsToEmailContent.php:114
+msgid "Price"
+msgstr ""
+
+#. Translators: 1. Customer name 2. New subscription status.
+#: src/Integrations/WooCommerce/Emails/Views/SubscriptionStatusChangedAdminEmailContent.php:104
+#, php-format
+msgid "The subscription status for customer %1$s has been updated to %2$s. Please find the updated subscription details in the table below."
+msgstr ""
+
+#. translators: %s: Customer first name
+#: src/Integrations/WooCommerce/Emails/Views/SubscriptionStatusChangedSuccessfulCustomerEmailContent.php:33
+#: src/Integrations/WooCommerce/Emails/Views/SubscriptionStatusChangedSuccessfulCustomerEmailContent.php:70
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#. Translators: 1. New Subscription status. 2. Store name. 3. Manage subscription link.
+#: src/Integrations/WooCommerce/Emails/Views/SubscriptionStatusChangedSuccessfulCustomerEmailContent.php:104
+#, php-format
+msgid "We wanted to let you know that your subscription status has changed to %1$s. To manage your subscription for %2$s <a href=\"%3$s\">click here</a>."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Endpoints/MySubscriptionsEndpoint.php:78
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:104
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:331
+#: build/dashboard.js:179
+msgid "Subscriptions"
+msgstr ""
+
+#. translators: %s - link to the subscriptions page.
+#: src/Integrations/WooCommerce/Endpoints/MySubscriptionsEndpoint.php:212
+#, php-format
+msgid "Invalid subscription <a href=\"%s\" class=\"wc-forward\">My subscriptions</a>"
+msgstr ""
+
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/Actions/DisplayTestModeBadge.php:76
+msgid "This subscription was made in test mode. No real money was exchanged."
+msgstr ""
+
+#. translators: 1: Error message
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/Actions/ProcessRenewal.php:52
+#, php-format
+msgid "Payment failed due to a Stripe error: %1$s"
+msgstr ""
+
+#. translators: 1: Error message
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/Actions/ProcessRenewal.php:54
+#, php-format
+msgid "Payment failed due to an error: %1$s"
+msgstr ""
+
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/Controllers/UpdatePaymentMethod.php:102
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/Controllers/UpdatePaymentMethod.php:143
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/Controllers/UpdatePaymentMethod.php:162
+msgid "Invalid payment method."
+msgstr ""
+
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/RegisterValidations.php:80
+msgid "Due to payment gateway restrictions, different subscription products can not be purchased at the same time."
+msgstr ""
+
+#. translators: 1: Credit card type and last 4 digits
+#: src/Integrations/WooCommerce/ExtensionSupport/WooSubscriptions/Utils/WooSubscriptionNote.php:41
+#, php-format
+msgid "Subscription's payment method updated to %2$s by %3$s. Stripe method method id is %4$s."
+msgstr ""
+
+#: src/Integrations/WooCommerce/FeatureSupport/ReactBasedPaymentSettings.php:79
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:57
+msgid "The most comprehensive and powerful Stripe integration for WooCommerce."
+msgstr ""
+
+#: src/Integrations/WooCommerce/FeatureSupport/ReactBasedPaymentSettings.php:100
+msgid "Stripe Payments"
+msgstr ""
+
+#. translators: 1: the billing period e.g. `week` 2: number of payments
+#: src/Integrations/WooCommerce/Models/ProductTypes/Simple/InstallmentPaymentsProduct.php:59
+#: src/Integrations/WooCommerce/Models/ProductTypes/Variable/InstallmentPaymentsProduct.php:52
+#: src/Integrations/WooCommerce/Models/ProductTypes/Variation/InstallmentPaymentsProduct.php:57
+#, php-format
+msgid "%1$s (%2$s total payments)"
+msgstr ""
+
+#. translators: %1$s is the frequency, %2$s is the period. Example: `3 months`.
+#: src/Integrations/WooCommerce/Models/ProductTypes/Traits/AbstractSubscriptionProductUtilities.php:86
+#, php-format
+msgctxt "Subscription item billing period"
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %1$s is the amount, %2$s is the billing period. Example: `$10 / 3 months`.
+#: src/Integrations/WooCommerce/Models/ProductTypes/Traits/WooCommerceProductClassUtilities.php:63
+#, php-format
+msgctxt "Subscription product price"
+msgid "%1$s / %2$s%3$s"
+msgstr ""
+
+#. translators: %1$s is the amount, %2$s is the billing period. Example: `From: $10 / 3 months`.
+#: src/Integrations/WooCommerce/Models/ProductTypes/Variable/VariableProduct.php:45
+#, php-format
+msgctxt "Subscription product price"
+msgid "%1$s / %2$s"
+msgstr ""
+
+#. translators: %1$s is the amount, %2$s is the billing period. Example: `From: $10 / 3 months`.
+#: src/Integrations/WooCommerce/Models/ProductTypes/Variable/VariableProduct.php:53
+#, php-format
+msgctxt "Subscription product price"
+msgid "From: %1$s / %2$s"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Controllers/AddPaymentMethod.php:118
+msgid "Please correct your credit or debit card."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Controllers/AddPaymentMethod.php:135
+msgid "The card you entered is already saved in our system. Please use a different card."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Controllers/AddPaymentMethod.php:154
+msgid "Unable to save the card."
+msgstr ""
+
+#. translators: 1: Name, 2 Username.
+#: src/Integrations/WooCommerce/Stripe/Controllers/AddPaymentMethod.php:191
+#: src/Integrations/WooCommerce/Stripe/Strategies/CustomerDataStrategy.php:132
+#, php-format
+msgid "Name: %1$s, Username: %2$s"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Controllers/DeletePaymentMethod.php:78
+msgid "We are sorry, but we could not delete your payment method at this time. Please try again shortly. If the issue continues to occur, do not hesitate to contact our support team for assistance"
+msgstr ""
+
+#. translators: 1: Stripe payment method id
+#: src/Integrations/WooCommerce/Stripe/Controllers/RenderCardOnOrderReceipt.php:70
+#, php-format
+msgid "%s (Stripe Payment Method ID)"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/PaymentGateway.php:128
+msgid ""
+"StellarPay is the leading WooCommerce integration for Stripe, backed by active development and top-notch support. Beyond a payment gateway, it offers robust tools to enhance your eCommerce sales.\n"
+"\n"
+"        With full integration with Stripe Elements, StellarPay provides seamless, secure, and customizable payment experiences. Our Stripe-certified developers ensure reliability, and as a Stripe verified partner, we deliver a trusted solution for all your payment processing needs."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/PaymentGateway.php:435
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:113
+msgid "Order not found."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/PaymentGateway.php:439
+msgid "Refund amount is required."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/PaymentGateway.php:493
+msgid "A valid payment method is necessary to proceed with the order. Please ensure it is provided."
+msgstr ""
+
+#. translators: %1$s - card type; %1$s - card last 4 digits; %1$s - card expiry month; %1$s - card expiry year;
+#: src/Integrations/WooCommerce/Stripe/Repositories/PaymentMethodRepository.php:80
+#, php-format
+msgid "%1$s ending in %2$s (expires %3$s/%4$s)"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Services/PaymentIntentService.php:75
+msgid "The payment process has already been successfully completed. Please contact the site administrator for further assistance."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Services/RefundService.php:67
+msgid "Refund request is not acceptable for order without the Stripe payment."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Services/RefundService.php:74
+msgid "Refund request is not acceptable for the incomplete Stripe payment."
+msgstr ""
+
+#. translators: 1. Refund status
+#: src/Integrations/WooCommerce/Stripe/Services/RefundService.php:116
+#, php-format
+msgid "Refund failed for the Stripe payment with status %1$s"
+msgstr ""
+
+#. translators: 1. amount (formatted) 2, the Stripe refund id
+#: src/Integrations/WooCommerce/Stripe/Services/RefundService.php:126
+#, php-format
+msgid "Refunded %1$s on the Stripe. Refund ID is %2$s."
+msgstr ""
+
+#. translators: 1. amount (formatted) 2, the Stripe refund id
+#: src/Integrations/WooCommerce/Stripe/Services/RefundService.php:135
+#, php-format
+msgid "Refund created on the Stripe for amount %1$s with id %2$s with status %1$s"
+msgstr ""
+
+#. translators: 1: Name.
+#: src/Integrations/WooCommerce/Stripe/Strategies/CustomerDataStrategy.php:123
+#, php-format
+msgid "Name: %1$s, Guest"
+msgstr ""
+
+#. translators: 1: Blog name 2: Order number
+#: src/Integrations/WooCommerce/Stripe/Strategies/PaymentIntentDataStrategy.php:116
+#, php-format
+msgid "%1$s - Order %2$s"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/DisplaySubscriptionOrderBadge.php:101
+msgctxt "Order List Table"
+msgid "Subscription"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/DisplaySubscriptionOrderBadge.php:107
+msgctxt "Order List Table"
+msgid "This is the initial payment for Subscription. Subsequent payments will be marked as renewals until the subscription is canceled or fulfilled."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/DisplaySubscriptionOrderBadge.php:122
+msgctxt "Order List Table"
+msgid "Renewal"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/DisplayTestModeBadge.php:42
+msgid "This order was made in test mode. No real money was exchanged."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:54
+msgid "Manage Integration"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:96
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "Visa logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:100
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "Mastercard logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:104
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "American Express logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:108
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "Apple Pay logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:112
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "Google Pay logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:116
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "Klarna logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:120
+msgid "Amazon Pay logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditPaymentGatewayDisplay.php:124
+msgid "Discover logo"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Views/EditRefundButtonTitle.php:77
+msgid "via"
+msgstr ""
+
+#. translators: refunded via `StellarPay Dashboard` or `Stripe Dashboard`.
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefunded.php:58
+#, php-format
+msgid "Refunded via %s"
+msgstr ""
+
+#. translators: 1: Subscription ID
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefunded.php:77
+#, php-format
+msgid " - Subscription %s - "
+msgstr ""
+
+#. translators: 1. Refund type, 2. amount (formatted), 3. Refunded by `admin`, `webhook`, etc; 4. Subscription ID message, 5. the Stripe refund id, 6. refund message
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefunded.php:85
+#, php-format
+msgid "%1$s %2$s via %3$s%4$sRefund ID: %5$s - Reason: %6$s"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefunded.php:86
+msgid "Partial refunded"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefunded.php:86
+msgid "Refunded"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefunded.php:91
+msgid "Other"
+msgstr ""
+
+#. translators: 1. Refund id 2. Refund failure code
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefundUpdated.php:71
+#, php-format
+msgid "Refund ID: %1$s - Reason: %2$s"
+msgstr ""
+
+#. translators: 1. Amount (with currency symbol) 2. Suffix message
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefundUpdated.php:79
+#, php-format
+msgid "Refund failed for %1$s - %2$s"
+msgstr ""
+
+#. translators: 1. Amount (with currency symbol) 2. Suffix message
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeRefundUpdated.php:86
+#, php-format
+msgid "Refund canceled for %1$s - %2$s"
+msgstr ""
+
+#. translators: 1: Fee 2: Net Amount
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/ChargeUpdated.php:70
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/InvoicePaid.php:130
+#, php-format
+msgid "Stripe charged %1$s fee and net amount is %2$s."
+msgstr ""
+
+#. translators: 1: Subscription id 2: Order item name
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/CustomerSubscriptionCreated.php:56
+#, php-format
+msgid "Subscription #%1$s created for %2$s"
+msgstr ""
+
+#. translators: 1: Subscription id
+#: src/Integrations/WooCommerce/Stripe/Webhook/Events/InvoicePaid.php:139
+#, php-format
+msgid "Renewal payment paid for subscription #%1$s."
+msgstr ""
+
+#. translators: %1$s is the frequency, %2$s is the period. Example: `3 months`.
+#: src/Integrations/WooCommerce/Traits/SubscriptionUtilities.php:302
+#, php-format
+msgctxt "Subscription billing period"
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: 1: Credit card type and last 4 digits
+#: src/Integrations/WooCommerce/Utils/OrderNote.php:65
+#, php-format
+msgid "Subscription #%1$s payment method updated to %2$s by %3$s. Stripe method method id is %4$s."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Utils/OrderNote.php:89
+msgid "the end of the current period"
+msgstr ""
+
+#. translators: 1 - subscription ID; 2 - date or default message `the end of the current period`.
+#: src/Integrations/WooCommerce/Utils/OrderNote.php:94
+#, php-format
+msgid "Subscription #%1$s is scheduled to be canceled at %2$s by %3$s."
+msgstr ""
+
+#. translators: 1: subscription ID 2: Subscripton creation date 3: Subscription renewal date 4: Stripe subscription schedule id
+#: src/Integrations/WooCommerce/Utils/OrderNote.php:115
+#, php-format
+msgid "Subscription #%1$s is created at %2$s. First renewal date for subscription is %3$s. Stripe subscription schedule id is %4$s"
+msgstr ""
+
+#. translators: 1 - subscription ID; 2 - modifier context type (Admin, Customer, Webhook, etc).
+#: src/Integrations/WooCommerce/Utils/OrderNote.php:136
+#, php-format
+msgid "Subscription #%1$s is scheduled to be paused at period end by %2$s."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Utils/OrderNote.php:156
+msgid "It was not possible to retrieve the WooCommerce order."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/Badge/TestModeBadge/TestModeBadge.php:62
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Test Mode"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ClassicCheckoutAndCartGettextFilter.php:43
+#: build/stellarpay-woocommerce-cart-block.js:1
+msgid "Total due today"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:142
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "No subscriptions"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:191
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:261
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Status"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:192
+msgid "Next Payment"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:193
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:262
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Total"
+msgstr ""
+
+#. translators: %d number of total payments.
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:275
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/MySubscriptionDetailsRows.php:93
+#, php-format
+msgid "(%d total payments)"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/MySubscriptionsPage.php:377
+msgid "View subscription"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/MySubscriptionDetailsRows.php:53
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Product"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/MySubscriptionDetailsRows.php:65
+msgid "Renewal Date"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/MySubscriptionDetailsRows.php:73
+msgid "Subscription Status"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/MySubscriptionDetailsRows.php:81
+msgid "Subscription Frequency"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/MySubscriptionDetailsRows.php:104
+msgid "Payment Method"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/MySubscriptionDetailsRows.php:131
+msgid "View product"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/Templates/StatusLabel.php:61
+#: build/dashboard.js:182
+msgid "Checking status"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/UpdatePaymentMethodMySubscriptionPage.php:154
+#: src/Integrations/WooCommerce/Views/MyAccountPage/UpdatePaymentMethodMySubscriptionPage.php:232
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:186
+#: build/dashboard.js:183
+msgid "Update payment method"
+msgstr ""
+
+#. translators: %d - the subscription ID.
+#: src/Integrations/WooCommerce/Views/MyAccountPage/UpdatePaymentMethodMySubscriptionPage.php:222
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:86
+#, php-format
+msgid "Subscription #%d"
+msgstr ""
+
+#. translators: %d - the subscription ID.
+#: src/Integrations/WooCommerce/Views/MyAccountPage/UpdatePaymentMethodMySubscriptionPage.php:263
+#, php-format
+msgid "Update payment method - Subscription #%d"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:177
+msgid "Actions"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:200
+msgid "Pause subscription"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:214
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Cancel subscription"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:254
+#: build/dashboard.js:182
+msgid "Orders"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:259
+#: build/dashboard.js:183
+msgid "ID"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:260
+msgid "Date"
+msgstr ""
+
+#. translators: %d - the subscription ID
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:323
+#, php-format
+msgid "View subscription number %d"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/MyAccountPage/ViewMySubscriptionPage.php:327
+msgid "View"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/OrderEditPage/OrderEditPage.php:105
+msgid "Visit subscription details page"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/OrderEditPage/OrderEditPage.php:115
+msgid "Subscription status"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/OrderEditPage/OrderEditPage.php:119
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Next payment"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/OrderRecurringTotals.php:49
+#: build/stellarpay-woocommerce-cart-block.js:1
+msgid "Recurring Total"
+msgstr ""
+
+#. translators: Subscription period label. Example: daily, weekly, monthly, yearly
+#: src/Integrations/WooCommerce/Views/OrderRecurringTotals.php:143
+#, php-format
+msgid "Recurring %1$s"
+msgstr ""
+
+#. translators: 1: Subscription amount. 2: Subscription period label. Example: $9.99 monthly
+#: src/Integrations/WooCommerce/Views/OrderRecurringTotals.php:162
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: 1: Subscription amount. 2: Subscription period label. 3: Subscription duration. Example: $9.99 monthly for 12 months
+#: src/Integrations/WooCommerce/Views/OrderRecurringTotals.php:171
+#, php-format
+msgid "%1$s %2$s × %3$s"
+msgstr ""
+
+#. translators: Next renewal date
+#: src/Integrations/WooCommerce/Views/OrderRecurringTotals.php:206
+#, php-format
+msgid "Next renewal %s"
+msgstr ""
+
+#. translators: 1: Number of payments
+#: src/Integrations/WooCommerce/Views/OrderRecurringTotals.php:278
+#, php-format
+msgid "%d payments"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/ProductEditPage.php:47
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Please enter 2 or more periods."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/ProductEditPage.php:48
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Please enter 2 or more installments."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/ProductEditPage.php:49
+msgid "Please enter in a value less than the regular price."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/SubscriptionSalePriceNotice.php:172
+msgid "Sale price only applies to the first payment."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:98
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Amount"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:102
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "This is the amount that customers pay at regular intervals."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:106
+msgid "Amount (required)"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:143
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:153
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Sale amount"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:146
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Cancel schedule"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:147
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Schedule"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:150
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Set a discount amount that customers pay at regular intervals."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:190
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Sale start date"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:194
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "From... YYYY-MM-DD"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:222
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Sale end date"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:226
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "To... YYYY-MM-DD"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:307
+msgid "Billing Period"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:310
+#: build/dashboard.js:183
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Custom"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:312
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "This is how often the amount will be charged to customers."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:328
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "This is the number of times the customer will be charged the amount above."
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:332
+msgid "Number of Installments"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:349
+#: build/dashboard.js:179
+msgid "Payments"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:387
+msgid "Recurring Frequency"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:389
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Every"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:406
+msgid "Recurring Period"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:412
+msgid "days"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:413
+msgid "weeks"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:414
+msgid "months"
+msgstr ""
+
+#: src/Integrations/WooCommerce/Views/ProductEditPage/VariationSettingFields.php:415
+msgid "years"
+msgstr ""
+
+#. translators: %1$s - the product subtotal, %2$s - the billing period e.g. `monthly`.
+#: src/Integrations/WooCommerce/Views/ProductSubtotal.php:39
+#, php-format
+msgid "%1$s / %2$s"
+msgstr ""
+
+#: src/MigrationLog/Migrations/CreateMigrationLogTable.php:39
+msgid "Create Migration Logs Table"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Actions/RemoveStripeAccountConnection.php:121
+msgid "Unable to delete the Stripe connection. Please try later."
+msgstr ""
+
+#. translators: 1: Error code
+#: src/PaymentGateways/Stripe/Actions/RemoveStripeAccountConnection.php:137
+#, php-format
+msgid "Unable to delete the Stripe connection. Please try later. Error code is %1$s"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Actions/UpdateWebhookOnEventProcessorsChange.php:139
+msgid "StellarPay unable to setup webhook."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Controllers/OnBoardingRedirectController.php:177
+msgid "Your Stripe profile is not ready to accept payments. Please complete your profile and try again."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Controllers/SiteMigrationActionController.php:255
+msgid "StellarPay unable to process the Stripe account migrations. Error details: "
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Controllers/SiteMigrationActionController.php:270
+msgid "StellarPay successfully processed the Stripe account migrations."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Migrations/EncodePaymentMethodDomainNameInOptionValue.php:69
+msgid "Encode Payment Method Domain Name in Option Value"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Migrations/EncodeWebhookURLInOptionValue.php:72
+msgid "Encode Webhook URL in Option Value"
+msgstr ""
+
+#. translators: 1: Previous domain name 2: New domain name
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:55
+#, php-format
+msgid "StellarPay has detected that your site has been moved from <code>%1$s</code> to <code>%2$s</code>. Your Stripe webhook endpoint is still pointing to the old domain."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:64
+msgid "Domain Change Detected"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:66
+msgid "Learn More"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:70
+msgid "What would you like to do?"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:72
+msgid "Migrate the webhook endpoint to the new domain (recommended)"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:73
+msgid "Create an additional webhook endpoint for the new domain and keep the existing endpoint"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:74
+msgid "Keep the existing webhook endpoint on the old domain"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:79
+msgid "Migrate to new domain"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:82
+msgid "Set up for both domains"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Notices/SiteMigrationNotice.php:85
+msgid "Keep existing setup"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/AccountSession.php:91
+msgid "Sorry, you are not allowed to access this resource."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/AccountSession.php:101
+#: src/PaymentGateways/Stripe/RestApi/DisconnectStripeAccount.php:120
+msgid "Invalid nonce."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/AccountSession.php:131
+msgid "Unable to create the Stripe account session. Please try later"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/AccountSession.php:146
+msgid "Invalid response."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:76
+msgid "The Stripe payment method id."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:82
+msgid "The Stripe payment intent id."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:88
+msgid "The WooCommerce order id."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:122
+msgid "Payment method is invalid"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:131
+msgid "Order is not pending."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:140
+msgid "Order does not have a customer."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:153
+msgid "Payment method id mismatch."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:164
+msgid "Payment intent id mismatch."
+msgstr ""
+
+#. translators: 1: Error message
+#: src/PaymentGateways/Stripe/RestApi/DetachCustomerPaymentMethod.php:204
+#, php-format
+msgid "Failed to detach payment method. Error: %1$s"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DisconnectStripeAccount.php:74
+msgid "Stripe connect mode"
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DisconnectStripeAccount.php:110
+msgid "You do not have permission to access this resource."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/RestApi/DisconnectStripeAccount.php:144
+msgid "Invalid account."
+msgstr ""
+
+#: src/PaymentGateways/Stripe/Services/WebhookService.php:64
+msgid "This Stripe webhook is auto-configured and maintained by the StellarPay plugin. Any alterations to the webhook are strongly discouraged, as they may affect the plugin operations."
+msgstr ""
+
+#: src/PluginSetup/Migrations/StoreHomeUrlInOptionTable.php:49
+msgid "Store Home URL in Option Table"
+msgstr ""
+
+#. translators: 1: Minimum WooCommerce version
+#: src/PluginSetup/NoticeManager.php:49
+#, php-format
+msgid "StellarPay requires WooCommerce %1$s or higher to be installed and activated."
+msgstr ""
+
+#: src/PluginSetup/PluginMeta.php:45
+#: build/dashboard.js:179
+msgid "Documentation"
+msgstr ""
+
+#: src/PluginSetup/PluginMeta.php:59
+#: build/dashboard.js:179
+msgid "Support"
+msgstr ""
+
+#: src/PluginSetup/PluginMeta.php:77
+#: build/dashboard.js:179
+msgid "Settings"
+msgstr ""
+
+#: src/PluginSetup/Views/DeactivationModal/DeactivationModal.php:41
+msgid "StellarPay Deactivation"
+msgstr ""
+
+#: src/PluginSetup/Views/DeactivationModal/DeactivationModal.php:54
+msgid "Would you like to delete all StellarPay data?"
+msgstr ""
+
+#: src/PluginSetup/Views/DeactivationModal/DeactivationModal.php:60
+msgid "By default, the StellarPay options and database entries are not deleted when you deactivate the plugin. Check this option if you are completely deleting StellarPay from your website and want those items removed. Note: This will permanently delete all StellarPay data from your database."
+msgstr ""
+
+#: src/PluginSetup/Views/DeactivationModal/DeactivationModal.php:71
+msgid "Skip and Deactivate"
+msgstr ""
+
+#: src/PluginSetup/Views/DeactivationModal/DeactivationModal.php:78
+#: build/dashboard.js:183
+msgid "Cancel"
+msgstr ""
+
+#: src/PluginSetup/Views/DeactivationModal/DeactivationModal.php:84
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: src/RestApi/HandleMultipleApiRoutes.php:75
+msgid "Route not found."
+msgstr ""
+
+#: src/Subscriptions/Migrations/AddAmountColumnToSubscriptionDatabaseTable.php:40
+msgid "Add `initial_amount`, `recurring_amount`, `currency_code` columns to Subscriptions table"
+msgstr ""
+
+#: src/Subscriptions/Migrations/AddExpiresAtColumnToSubscriptionsTable.php:38
+msgid "Add `expires_at` column to Subscriptions table"
+msgstr ""
+
+#: src/Subscriptions/Migrations/AddResumedAtColumnsToSubscriptionTable.php:49
+msgid "Add resumed_at columns to Subscription Table"
+msgstr ""
+
+#: src/Subscriptions/Migrations/CreateSubscriptionDatabaseTable.php:118
+msgid "Create Subscription Database Table"
+msgstr ""
+
+#: src/Subscriptions/Migrations/CreateSubscriptionMetaDatabaseTable.php:92
+msgid "Create Subscription Meta Database Table"
+msgstr ""
+
+#: src/Subscriptions/Models/Subscription.php:188
+msgid "payment remaining"
+msgid_plural "payments remaining"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Subscriptions/Models/Subscription.php:313
+msgid "All payments completed"
+msgstr ""
+
+#: src/Subscriptions/Models/Subscription.php:317
+msgid "Subscription ended"
+msgstr ""
+
+#: src/Subscriptions/Models/Subscription.php:321
+msgid "N/A"
+msgstr ""
+
+#. translators: 1: Date
+#: src/Subscriptions/Models/Subscription.php:883
+#, php-format
+msgid "Cancels at %s"
+msgstr ""
+
+#. translators: 1: Date
+#: src/Subscriptions/Models/Subscription.php:891
+#, php-format
+msgid "Pauses on %s"
+msgstr ""
+
+#: src/Webhook/Migrations/CreateWebhookEventsTable.php:99
+msgid "Create Webhook Events Table"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "An error occurred"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Test account disconnected"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Error details:"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Your test Stripe account has been successfully disconnected. Test mode is now disabled."
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Confirm"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "You must disconnect your test account first."
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Are you sure you want to disconnect your live Stripe account?"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Your live Stripe account is currently connected to your WordPress site. Disconnecting it will stop payments and prevent access to StellarPay until you reconnect."
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Are you sure you want to disconnect your live Stripe account? If so, please confirm by typing \"DISCONNECT\" below and clicking the \"Confirm\" button."
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Type \"DISCONNECT\" to confirm"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Confirm disconnect"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Connect to Stripe"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Disconnect from Stripe"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Connect a Test Account"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Disconnect Test Account"
+msgstr ""
+
+#: build/dashboard.js:171
+#: build/dashboard.js:179
+msgid "Stripe Verified Partner"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Reduce cart abandonment"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Create subscription products"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Win more disputes"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Support for 180+ currencies"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Easy tax management"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Easy customization"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "The professional's choice for WooCommerce payments"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Connect to Stripe and unlock a suite of tools designed to boost your sales, reduce cart abandonment, and provide your customers with the seamless shopping experience they deserve."
+msgstr ""
+
+#: build/dashboard.js:171
+#: build/dashboard.js:177
+#: build/dashboard.js:183
+msgid "Save"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Loading…"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Loaded!"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Error while loading!"
+msgstr ""
+
+#: build/dashboard.js:171
+msgid "Settings updated!"
+msgstr ""
+
+#. translators: %s: label name.
+#: build/dashboard.js:174
+#, js-format
+msgctxt "This is the text that is displayed next to a toggle switch field when it is enabled or on."
+msgid "%s on"
+msgstr ""
+
+#. translators: %s: label name.
+#: build/dashboard.js:177
+#, js-format
+msgctxt "This is the text that is displayed next to a toggle switch field when it is disabled or off."
+msgid "%s off"
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "Enabled"
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "Select"
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "Subscribe to important support information, product updates, and the occasional marketing email."
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "You’re connected to Stripe! Let’s begin."
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "Your store is now linked up with StellarPay. You're one step closer to a seamless payment experience."
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "Enable StellarPay in WooCommerce"
+msgstr ""
+
+#: build/dashboard.js:177
+msgid "View your dashboard"
+msgstr ""
+
+#. translators: 1: Error Message
+#: build/dashboard.js:178
+#, js-format
+msgid "Error details: %1$s"
+msgstr ""
+
+#: build/dashboard.js:178
+msgid "Uh oh! An error occurred with the Stripe connection."
+msgstr ""
+
+#. translators: 1: Error Message
+#: build/dashboard.js:179
+#, js-format
+msgid "We were unable to connect your Stripe account. Please try again.%1$s"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Connection incomplete - Need assistance?"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Connect your Stripe account to use StellarPay. If you have any questions or need assistance, <link />. Don’t hesitate to reach out!"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "we’re here to help"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Test mode is active. No real money will be used."
+msgstr ""
+
+#: build/dashboard.js:179
+#: build/dashboard.js:183
+msgid "Test mode"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Heads up! StellarPay's Stripe integration is not active."
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Enable it"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "in WooCommerce settings to resume payment processing."
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Dashboard"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Payouts"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Events"
+msgstr ""
+
+#: build/dashboard.js:179
+#: build/dashboard.js:183
+msgid "Appearance"
+msgstr ""
+
+#: build/dashboard.js:179
+#: build/dashboard.js:183
+msgid "Payment methods"
+msgstr ""
+
+#: build/dashboard.js:179
+#: build/dashboard.js:183
+msgid "Fee recovery"
+msgstr ""
+
+#: build/dashboard.js:179
+#: build/dashboard.js:183
+msgid "Account management"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Development & testing"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Migration logs"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Open main menu"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Visit dashboard"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Visit StellarWP.com"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "What's new"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Roadmap"
+msgstr ""
+
+#: build/dashboard.js:179
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Error fetching data."
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "Stripe overview"
+msgstr ""
+
+#: build/dashboard.js:179
+msgid "This data is pulled from your connected Stripe account."
+msgstr ""
+
+#. translators: %s: Balance currency
+#: build/dashboard.js:182
+#, js-format
+msgid "%s balance"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Next payout"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Early fraud warnings"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Payments that are at risk of being fraudulent over the last 30-days."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Unanswered disputes"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Payments that have been disputed and need a response."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Net Sales"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Gross Sales"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Total Orders"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Day"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Week"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Month"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "No orders found for the selected time period."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Product Image"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Top selling products"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "No products in selected time period."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "item"
+msgid_plural "items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/dashboard.js:182
+msgid "Top spend by customer"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "No customers in selected time period."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "WooCommerce overview"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "This data is pulled from your WooCommerce store. Orders are counted as sales based on the date the order was created."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Gross sales"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Net sales"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Refunds"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "New customers"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Repeat customers"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Failed payments"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Taxes collected"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "StellarPay - Roadmap Embed"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "You are in test mode; however, this page still displays LIVE data. <a>Find out why</a>."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Viewing <count></count> of <pages></pages> results"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Previous"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Next"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Status change pending"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Indefinite"
+msgstr ""
+
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Customer"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Start date"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Order <orderId/>"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "No subscriptions yet"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "When customers subscribe to your products or services, their subscriptions will appear here. This screen will help you track all active subscriptions and renewals."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Ready to set up your first subscription product?"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Create subscription product"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "You can't issue a refund for orders with discounts. However, you can still issue a refund manually."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "You can't issue a refund when canceling at the end of the period. However, you can still issue a refund manually."
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "You are about to cancel the subscription for:"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "When do you want this subscription to cancel?"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Refund"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "This action cannot be undone. Are you sure you want to continue?"
+msgstr ""
+
+#: build/dashboard.js:182
+#: build/dashboard.js:183
+msgid "Unable to cancel the subscription"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Confirm cancellation"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Abort and close"
+msgstr ""
+
+#: build/dashboard.js:182
+msgid "Payment History"
+msgstr ""
+
+#. Translators: %d is the number of payments remaining
+#: build/dashboard.js:183
+#, js-format
+msgid "(%d payments remaining)"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Started"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Billing period"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "No. of installments"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Payment progress"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Parent Order ID"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Payment method"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Stripe sub ID"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Update installment status"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Update subscription status"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Subscription details"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Installment details"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Error fetching payment methods."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Use a new payment method"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "You're using test data. Real money won't be charged. <link/> for more information on how to test Stripe."
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Click here"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Test Mode Active:"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Default"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Flat"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Dark"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Minimal"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Bubblegum"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Ninety Five"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Dark Blue"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Tabs"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Accordion with Spacing"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Accordion with Radios"
+msgstr ""
+
+#: build/dashboard.js:183
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "Accordion with Spacing and Radios"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "An error occurred during the setup of payment options. Please try again."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Could not update payment method."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "payment(s)"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Pause length"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "The next renewal payment will occur on <strong><new_date/> instead of <old_date/></strong>. The customer will not be billed during the pause period."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Unable to resume the subscription"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Add your logo"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Set logo"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Account name"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Account ID"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Country"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Icon"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "No icon set."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Add your icon"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Set an icon."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Logo"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Account Logo"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "No logo set."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Currency"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Connected"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "View and edit details for your connected Stripe account."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Automatic domain registration"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Registered"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Your website's domain is automatically registered with Stripe to enable Apple Pay, Google Pay, Stripe Link, and PayPal as payment methods when it is available online. This registration is necessary for these payment options to function correctly on your site. <learnmore/>"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Learn more"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "This website is not public yet, so we have not set up the Stripe payment method domain. Please make your site live to enable these payment options."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Test data deleted"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Delete test data"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "This will delete all test data from your WooCommerce payment records including orders, subscriptions and payment methods."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Delete all test data"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Test data"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Delete all your test data from WooCommerce. This action cannot be undone. To find out how to delete the test data from your Stripe account <a>click here</a>"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Deleting test data"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Stripe CLI allows you to receive webhook events locally to test StellarPay's integration with WooCommerce in your local development environment. This setting enables you to test webhooks locally with the Stripe CLI."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "By default, StellarPay creates a Stripe webhook endpoint for Stripe Live mode, but not for Test or Local development. If you are using Stripe CLI locally to listen for webhook events, please paste the `whsec_***` key in this field."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Connect a Test Stripe account to begin testing"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Test account"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Connect a test account to process payments without using real money. It’s a great way to test your integration with Stripe."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Stripe test account"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Every Stripe account has a separate live and test mode. You are currently connected in Live-mode only. Please connect a test account to test your Stripe integration."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "The following Test Stripe account is connected. While Test Mode is active this account will be used to process payments and no real money will be used."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Ready to start testing? Great! Toggle on and off test mode to simulate transactions without using real money."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "When Test Mode is turned on no real money will be used for transactions. This allows you to test your integration with Stripe using test cards for various scenarios such as completing payments, error responses, and more. Be sure to turn this off when you're done testing."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Local development"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "These settings allow you to connect your site to Stripe for local development."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Local webhook secret key"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Visit Stripe Dashboard"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Do not delete"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "1 month"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "2 months"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "3 months"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "6 months"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "1 year"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Manage connection to Stripe and view account details."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Stripe live account"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Your live account is used for transactions on your live site. Use only for real purchases."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Account details"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "View and edit details of your connected Stripe account."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Webhook"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Manage webhook events data and view webhook endpoint details."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Webhook endpoint"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "An active webhook endpoint is vital for communication between your site and Stripe. The following endpoint has been automatically created for your website. Please do not remove this endpoint from your Stripe account."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "This website is not public yet, so we have not set up the Stripe webhook. You can still test the webhook with the provided URL using Stripe CLI."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Webhook event data retention timespan"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Define the duration for retaining webhook events data before outdated data is automatically removed"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Retention Period"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Preview"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "This is a preview of the payment interface. Your theme will define the background color on the checkout page."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Read only"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Payment options title"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "This controls the text that the user sees at checkout."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Non-latin characters are not allowed."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Length should be between 5-22 characters."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "These characters are not allowed: <span><, >, \\, ' \" *</span>"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "At least one letter is required"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Statement descriptor can not be empty."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Statement descriptor"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Your statement descriptor is the name that appears on your customer’s credit card statements. By default, it's set to your Stripe account name. To change it, toggle this option and enter a recognizable name to prevent disputes. Make sure your descriptor meets the <guidelines/>."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Link to stripe document about statement descriptors requirements."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "required guidelines"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Styling"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Layout"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Primary"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Field background"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Text"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Payment options design"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Control the design that the user sees at checkout."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Customize the look of the checkout payment interface to match your site. Adjust the content, theme, and layout to suit your needs. In addition, adjust how charges appear in your customer's bank statements."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Checkout"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Payment statement"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Stripe automatically adjusts the payment methods shown to your customers depending on their location. This section allows you to select the payment options that suit your needs."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Please enter a value with one decimal point, using a period (.) as the decimal separator."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Enter the percentage fee. Stripe's standard processing fee is 2.9%. This will be added to the customer's total cart amount."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Enter an optional flat fee amount. Stripe adds 30 cents to each transaction. This amount will be added to the percentage-based processing fee above."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Fee recovery line item descriptor"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Customize the label for the line item during the checkout process and in the customer's receipts."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Allows you to add an additional fee to orders to cover the payment gateway's processing fee. The fee will only be added to StellarPay payment methods."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Global configuration"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Enable fee recovery for all transactions. Customers will see an additional line item during the checkout process when fee recovery is enabled."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "No webhooks received"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Webhooks notify you when something happens in your Stripe account—like new purchases, subscription changes, or payment updates. Events will appear here once your store receives its first webhook."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Read more about events"
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "Your stripe account information was updated."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "Payment for <link_source_type_label /> has succeeded."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "Payment for <link_source_type_label /> has failed."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "Payment for <link_source_type_label /> has canceled."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "A charge has been updated for <link_source_type_label />."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "A refund has been updated for <link_source_type_label />."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "A refund of <amount /> has been updated for <link_source_type_label />."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "<customer_email/>'s subscription to <link_source_id /> has been updated."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "A new <link_source_type_label /> has been created for <customer_email/>."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "<customer_email/>'s subscription has been canceled for <link_source_id />."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "<customer_email/>'s subscription schedule has been canceled for <link_source_id />."
+msgstr ""
+
+#: build/dashboard.js:183
+msgctxt "Webhook event"
+msgid "<customer_email/>'s invoice for <amount /> was paid for <link_source_type_label />."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Event"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Event ID"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Date & Time"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "<strong>Error details</strong>: Webhook processed error. Please <a>check the logs ↗</a> for more details."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "check the logs ↗"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Event type"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Event details"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "View event in Stripe"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Title"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Last run"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Run order"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "No migration logs"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Discard changes?"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "You have unsaved changes that will be lost."
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Keep editing"
+msgstr ""
+
+#: build/dashboard.js:183
+msgid "Discard changes"
+msgstr ""
+
+#: build/stellarpay-my-account-subscriptions.js:1
+msgid "Are you sure you want to cancel this subscription?"
+msgstr ""
+
+#: build/stellarpay-my-account-subscriptions.js:1
+msgid "Activation pending"
+msgstr ""
+
+#: build/stellarpay-my-account-subscriptions.js:1
+msgid "Status not found"
+msgstr ""
+
+#: build/stellarpay-woocommerce-orders-screen.js:171
+msgid "Show payment in Stripe"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "One-time Payment"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Charge a one-time payment"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Subscription Payment"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Charge a recurring payment"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Installment Payment"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Charge a number of payments"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "YYYY-MM-DD"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Regular amount must be set before entering a sale amount."
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Number of installments"
+msgstr ""
+
+#: build/stellarpay-woocommerce-product-edit-page.js:1
+msgid "Payment"
+msgid_plural "Payments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "…and many, many, more."
+msgstr ""
+
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "Powered by StellarPay"
+msgstr ""
+
+#: build/stellarpay-woocommerce-settings-payments.js:1
+msgid "Stripe verified partner"
+msgstr ""
+
+#: build/stripe-add-payment-method-integration.js:1
+#: build/stripe-checkout-block-integration.js:1
+#: build/stripe-legacy-checkout-integration.js:1
+#: build/stripe-update-payment-method-integration.js:1
+#: build/woo-subscription-update-payment-method-integration.js:1
+msgid "An error occurred during the setup of payment options. Please try again. If the issue persists, kindly contact the website administrator for assistance."
+msgstr ""
+
+#: build/stripe-legacy-checkout-integration.js:1
+msgid "There was an error processing your order. Please check for any charges in your payment method and review your order history before placing the order again. If issue persists, please contact the site administrator for further assistance."
+msgstr ""
